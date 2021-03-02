@@ -5,7 +5,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 background: #fff;
-z-index: 11;
 `
 export const InnerWrapper = styled.div`
 width: 1300px;

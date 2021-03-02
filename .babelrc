@@ -1,10 +1,11 @@
 {
   "env": {
     "development": {
-      "plugins": [
+      "plugins": [        
         [
           "babel-plugin-styled-components",
           { "ssr": true, "displayName": true, "preprocess": false }
+          
         ]
       ],
       "presets": ["next/babel"]
@@ -25,4 +26,6 @@
       { "ssr": true, "displayName": true, "preprocess": false }
     ]
   ]
+
+  
 }
