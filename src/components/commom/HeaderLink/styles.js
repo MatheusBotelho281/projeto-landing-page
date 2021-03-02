@@ -10,4 +10,7 @@ font-family: 'Poppins', sans-serif;
 :hover{
   border-bottom: 2px solid #BF8770;
 }
+@media only screen and (max-width: 1024px){
+  display:none;
+}
 `
